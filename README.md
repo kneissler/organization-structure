@@ -13,13 +13,13 @@
 The following section defines the organization tree (folders and projects)
 
 ```yaml
-kneissler.com:
+kneissler-com:
   folder1:
     subfolder:
-      - kneissler-test-project-xyz-001: data
-      - kneissler-test-project-xyz-002: mlops
+      - kneiss-test-xyz-001: data
   folder2:
-    - kneissler-test-project-xyz-003: playground
+    - kneiss-test-xyz-003: playground
+    - kneiss-test-xyz-002: mlops
 ```
 
 Projects names must follow the following naming conventions:
@@ -45,14 +45,17 @@ The following block declares the ID of the organization (used as parent for the 
 organization-id: 727520233085
 ```
 
+TDOD: replace with Breuninger --> organization-id: 722026089310
+
+
 ## Billing accounts assignment ##
 
 The following table assigns folders to billing accounts.
 
 | Folder        | BillingAccount        |
 |---------------|-----------------------|
-| kneissler.com | 01F224-FCDFA6-4BF1D6	 |
-| subfolder     | 01A566-AF7EE9-7CF688  |
+| kneissler-com | 01F224-FCDFA6-4BF1D6	 |
+| subfolder     | 01F224-FCDFA6-4BF1D6  |
 
 Note: 
 - All projects in the sub-tree with specified folder as root will be assigned to the corresponding billimng account
