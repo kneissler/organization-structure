@@ -17,9 +17,9 @@ kneissler-com:
   folder1:
     subfolder:
       - kneiss-test-abc-001: data
+      - kneiss-test-abc-002: mlops
   folder2:
     - kneiss-test-abc-003: playground
-    - kneiss-test-abc-002: mlops
 ```
 
 Projects names must follow the following naming conventions:
