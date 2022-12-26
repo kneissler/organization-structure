@@ -16,9 +16,9 @@ The following section defines the organization tree (folders and projects)
 kneissler-com:
   folder1:
     subfolder:
-      - kneiss-test-abc-001: data
       - kneiss-test-abc-002: mlops
   folder2:
+    - kneiss-test-abc-001: data
     - kneiss-test-abc-003: playground
 ```
 
